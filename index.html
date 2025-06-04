@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thandeka's Portfolio - Woman in Tech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">Loading...</div>
+
+  <!-- Navigation -->
+  <div class="nav-container">
+    <a href="#" class="logo">Thandeka</a>
+    <nav>
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggleBtn" type="button">Light Mode</button>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm <span class="highlight">Thandeka Lubisi</span></h1>
+      <h2>I’m a <span id="typingText"></span></h2>
+      <a href="documents/THANDEKA_LUBISI_CV.pdf" download class="btn">Download My CV</a>
+
+    </div>
+    <img src="images/picture1.png" alt="Thandeka's photo">
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-content">
+      <img src="images/picture2.jpg" alt="About Me">
+      <div>
+        <h2>About Me</h2>
+        <p>I am a Software Development Graduate with a strong foundation in web development, coding, and IP networking. I am skillful, self-organized, and technically minded, with a passion for innovation and problem-solving.
+
+Currently, I am enhancing my expertise in Data Analytics at Capaciti, which strengthens my ability to analyze and interpret data for strategic insights. My experience also includes infrastructure-related components and optimizing existing environments to improve system efficiency.
+
+I am diligent and hardworking, always eager to learn and adapt to new technologies. With my combined knowledge in software development and data analytics, I aim to contribute to impactful digital solutions that drive business growth and innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-list">
+    <h2>Skills</h2>
+    <div class="skill">
+      <p>JavaScript</p>
+      <div class="progress-bar"><div class="progress js"></div></div>
+    </div>
+    <div class="skill">
+      <p>Python</p>
+      <div class="progress-bar"><div class="progress python"></div></div>
+    </div>
+    <div class="skill">
+      <p>SQL</p>
+      <div class="progress-bar"><div class="progress sql"></div></div>
+    </div>
+    <div class="skill">
+      <p>Data Visualization</p>
+      <div class="progress-bar"><div class="progress viz"></div></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" type="button" data-filter="all">All</button>
+      <button class="filter-btn" type="button" data-filter="web">Web</button>
+      <button class="filter-btn" type="button" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" type="button" data-filter="data">Data</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card web">Web Project 1</div>
+      <div class="project-card mobile">Mobile Project 1</div>
+      <div class="project-card data">Data Project 1</div>
+      <div class="project-card web">Web Project 2</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Scroll To Top Button -->
+  <button id="scrollToTopBtn" type="button" title="Scroll to top">&#8679;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
