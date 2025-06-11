@@ -1,0 +1,21 @@
+# Ignore Windows system folders
+AppData/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore .codemate folder
+.codemate/
+
+# Ignore other system files
+NTUSER.DAT*
+ntuser.dat.*
+
