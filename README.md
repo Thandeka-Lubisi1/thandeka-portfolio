@@ -20,6 +20,6 @@ This is my personal portfolio website where I showcase my background, skills, an
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/thandeka-portfolio.git
-   cd thandeka-portfolio](https://thandeka-lubisi1.github.io/thandeka-portfolio/)
+   git clone https://github.com/your-username/thandeka-portfolio.git
+   cd thandeka-portfolio](https://thandeka-lubisi1.github.io/thandeka-portfolio/
 
