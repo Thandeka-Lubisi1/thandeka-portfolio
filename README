@@ -1,0 +1,25 @@
+# 🌐 Portfolio Website
+
+**Live demo of my capabilities and development projects.**
+
+## 📌 Overview
+This is my personal portfolio website showcasing who I am, the skills I possess, and the development projects I’ve worked on. It serves as a central hub for recruiters, collaborators, and potential clients to explore my work and get in touch.
+
+## 💡 Features
+- 👩‍💻 About Me section
+- 🛠️ Skills and technologies
+- 📁 Project gallery with descriptions and links
+- 📨 Contact form or contact information
+- 🌐 Responsive design for mobile and desktop
+
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS
+- **Backend** *(optional)*: Python (Flask/Django if applicable)
+- **Hosting**: GitHub Pages / Netlify / Vercel
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
+   cd portfolio-website
