@@ -108,7 +108,7 @@ if (themeToggleBtn) {
 }
 
 // Typing Animation
-const typingTexts = ["Software Developer", "Innovator", "Problem Solver", "Woman in Tech"];
+const typingTexts = ["Software Developer", "Data Analyst", "IT Technician", "Innovator", "Problem Solver", "Woman in Tech"];
 let i = 0;
 let j = 0;
 let currentText = '';
