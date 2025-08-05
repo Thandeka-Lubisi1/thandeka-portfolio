@@ -14,7 +14,6 @@ This is my personal portfolio website where I showcase my background, skills, an
 
 ## 🛠️ Tech Stack
 - **Frontend**: HTML, CSS
-- **Backend (if applicable)**: Python (Flask/Django)
 - **Hosting**: GitHub Pages
 
 ## 🚀 Getting Started
